@@ -57,12 +57,12 @@
 			remoteGlobalIDString = 202BBF601BE569BC004D47EC;
 			remoteInfo = VirtualGameControllerIOS;
 		};
-		20AD721321A1C3FD00753DDD /* PBXContainerItemProxy */ = {
+		3D8699D22250BA870038C902 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 20855CDB1C192DDB00F82CED /* VirtualGameControllerIOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 20AD71F921A1B0E700753DDD;
-			remoteInfo = VirtualGameControllerIOS_Tests;
+			remoteGlobalIDString = 202C1EFD21B1DC240094F6E9;
+			remoteInfo = VirtualGameControllerIOSTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -154,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				20855CE01C192DDB00F82CED /* VirtualGameController.framework */,
-				20AD721421A1C3FD00753DDD /* VirtualGameControllerIOS_Tests.xctest */,
+				3D8699D32250BA870038C902 /* VirtualGameControllerIOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -291,6 +291,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -321,11 +322,11 @@
 			remoteRef = 20855CDF1C192DDB00F82CED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		20AD721421A1C3FD00753DDD /* VirtualGameControllerIOS_Tests.xctest */ = {
+		3D8699D32250BA870038C902 /* VirtualGameControllerIOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = VirtualGameControllerIOS_Tests.xctest;
-			remoteRef = 20AD721321A1C3FD00753DDD /* PBXContainerItemProxy */;
+			path = VirtualGameControllerIOSTests.xctest;
+			remoteRef = 3D8699D22250BA870038C902 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -473,7 +474,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -505,7 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.simplyformed.Central-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -633,7 +634,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.simplyformed.CentralVirtualGameControlleriOSSample;
 				PRODUCT_NAME = vgcCentral_iOS;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -656,7 +657,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.simplyformed.CentralVirtualGameControlleriOSSample;
 				PRODUCT_NAME = vgcCentral_iOS;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

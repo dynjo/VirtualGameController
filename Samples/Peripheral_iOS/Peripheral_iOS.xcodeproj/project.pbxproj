@@ -59,13 +59,6 @@
 			remoteGlobalIDString = 202BBF601BE569BC004D47EC;
 			remoteInfo = VirtualGameControllerIOS;
 		};
-		2070139921A62EA100C82713 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2031E02E1C24A21500EE5FCA /* VirtualGameControllerIOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 20AD71F921A1B0E700753DDD;
-			remoteInfo = VirtualGameControllerIOS_Tests;
-		};
 		208E55851C24A4740050D8AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 208E55811C24A4730050D8AD /* VirtualGameControllerWatchOS.xcodeproj */;
@@ -79,6 +72,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 20A120B91BDA97BF00E30083;
 			remoteInfo = VirtualGameControllerWatchOS;
+		};
+		3D8699CA2250BA030038C902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2031E02E1C24A21500EE5FCA /* VirtualGameControllerIOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 202C1EFD21B1DC240094F6E9;
+			remoteInfo = VirtualGameControllerIOSTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -256,7 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				2031E0331C24A21600EE5FCA /* VirtualGameController.framework */,
-				2070139A21A62EA100C82713 /* VirtualGameControllerIOS_Tests.xctest */,
+				3D8699CB2250BA030038C902 /* VirtualGameControllerIOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -361,6 +361,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -394,18 +395,18 @@
 			remoteRef = 2031E0321C24A21600EE5FCA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2070139A21A62EA100C82713 /* VirtualGameControllerIOS_Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = VirtualGameControllerIOS_Tests.xctest;
-			remoteRef = 2070139921A62EA100C82713 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		208E55861C24A4740050D8AD /* VirtualGameController.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = VirtualGameController.framework;
 			remoteRef = 208E55851C24A4740050D8AD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D8699CB2250BA030038C902 /* VirtualGameControllerIOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VirtualGameControllerIOSTests.xctest;
+			remoteRef = 3D8699CA2250BA030038C902 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -623,7 +624,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
@@ -639,7 +640,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
@@ -661,7 +662,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Peripheral_iOS/Peripheral_iOS WatchKit App-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
@@ -682,7 +683,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Peripheral_iOS/Peripheral_iOS WatchKit App-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
@@ -702,7 +703,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Peripheral_iOS/Peripheral_iOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -721,7 +722,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.simplyformed.Peripheral-iOS-unique";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Peripheral_iOS/Peripheral_iOS-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;

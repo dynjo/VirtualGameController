@@ -249,6 +249,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -495,7 +496,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.simplyformed.net.vgcPeripheral-OSX";
 				PRODUCT_NAME = Peripheral_OSX;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -517,7 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.simplyformed.net.vgcPeripheral-OSX";
 				PRODUCT_NAME = Peripheral_OSX;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
