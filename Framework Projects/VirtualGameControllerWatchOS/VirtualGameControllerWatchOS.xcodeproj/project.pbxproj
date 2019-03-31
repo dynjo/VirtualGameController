@@ -144,6 +144,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -311,7 +312,7 @@
 				PRODUCT_NAME = VirtualGameController;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
@@ -335,7 +336,7 @@
 				PRODUCT_NAME = VirtualGameController;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;

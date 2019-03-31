@@ -217,6 +217,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 202BBF571BE569BC004D47EC;
@@ -419,7 +420,7 @@
 				PRODUCT_NAME = VirtualGameController;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = Build;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
@@ -445,7 +446,7 @@
 				PRODUCT_NAME = VirtualGameController;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = Build;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
