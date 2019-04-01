@@ -23,7 +23,7 @@ import Foundation
         
         @objc open var deviceSupportsMotion: Bool = false
         
-        @objc open let manager = CMMotionManager()
+        @objc public let manager = CMMotionManager()
         
         @objc open var active: Bool = false
         
